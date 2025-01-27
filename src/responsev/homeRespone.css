@@ -1,0 +1,84 @@
+  /* Extra Small Devices (Phones smaller than 576px) */
+@media (max-width: 575.98px) {
+    /* CSS Rules for Extra Small Devices */
+    .Feature {
+        .futherinfo-one,.futherinfo-two{
+            margin-bottom: 1rem;
+        }
+    }
+    .moreInfoForBlace{
+        .moreInfoForBlace-img{
+            margin-bottom: 1rem;
+        }
+    }
+    .ArtWlaaGirl{
+        padding: 0;
+        padding-top: 2rem;
+        .content{
+            font-size: 1rem;
+        }
+    }
+  }
+  
+  /* Small Devices (Phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS Rules for Small Devices */
+    .Feature {
+        .futherinfo-one,.futherinfo-two{
+            margin-bottom: 1rem;
+        }
+    }
+    .moreInfoForBlace{
+        .moreInfoForBlace-img{
+            margin-bottom: 1rem;
+        }
+    }
+    .ArtWlaaGirl{
+        padding: 0;
+        padding-top: 2rem;
+        .content{
+            font-size: 1rem;
+        }
+    }
+  }
+  
+  
+  /* Medium Devices (Tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* CSS Rules for Medium Devices */
+    .Feature {
+        .futherinfo-one,.futherinfo-two{
+            margin-bottom: 1rem;
+        }
+    }
+    .moreInfoForBlace{
+        .moreInfoForBlace-img{
+            margin-bottom: 1rem;
+        }
+    }
+    .ArtWlaaGirl{
+        padding: 0;
+        padding-top: 2rem;
+        .content{
+            font-size: 1rem;
+        }
+    }
+  }
+  
+  
+  /* Large Devices (Desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS Rules for Large Devices */
+  }
+  
+  /* Extra Large Devices (Large Desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* CSS Rules for Extra Large Devices */
+  }
+  
+  /* XXL Devices (Ultra Wide Screens, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* CSS Rules for XXL Devices */
+  }
+  
+  

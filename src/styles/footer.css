@@ -1,0 +1,12 @@
+footer{
+    font-family: "Noto Kufi Arabic";
+    background: linear-gradient(135deg, #89CFF0, #D3ECF8); /* تدرج لوني */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 1.4rem;
+}

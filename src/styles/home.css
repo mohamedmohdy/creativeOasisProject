@@ -1,0 +1,301 @@
+/* 
+.main-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.customer-container{
+    width: 80%;
+    margin: 2rem auto;
+}
+.container{
+    .content{
+        font-family:"Noto Kufi Arabic";
+        .title-content{
+            font-size: 2.4rem;
+            font-weight: bold;
+        }
+        h1{
+            span{
+                line-height: 1;
+                padding-bottom: 0px;
+                
+            }
+        }
+    }
+} */
+.container {
+    font-family: "Noto Kufi Arabic";
+    .main-title {
+        padding-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Noto Kufi Arabic";
+
+        .content {
+            .title-content {
+                font-size: 2.4rem;
+                font-weight: bold;
+
+                h1 {
+                    line-height: 4rem;
+                    span {
+                       
+                        padding-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .imgKids {
+            position: relative;
+
+            .cap,
+            .cloud,
+            .cloud-lg {
+                position: absolute;
+                width: 100px;
+                top: 2rem;
+                left: 2rem;
+            }
+
+            .cloud {
+                left: 20rem;
+                animation: moveCloud 10s linear infinite;
+
+            }
+
+            .cloud-lg {
+                top: 20rem;
+                animation: moveCloud 10s linear infinite;
+
+            }
+
+            .cap {
+                animation: moveCap 5s linear infinite;
+            }
+        }
+    }
+
+    .Feature {
+        margin-top: 1rem;
+
+        h3 {
+            font-size: 1rem;
+            margin-right: 1rem;
+        }
+
+        .futherinfo-one,
+        .futherinfo-two,
+        .futherinfo-three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .imag {
+            img {
+                width: 8rem;
+            }
+        }
+    }
+
+    .moreInfoForBlace {
+        margin-top: 6rem;
+
+        .moreInfoForBlace-img {
+            position: relative;
+            .kids {
+                border-radius: 1rem;
+                mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+            }
+
+            .book {
+                position: absolute;
+                width: 12rem;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+    .moreInfoForBlace-content {
+        font-family: "Noto Kufi Arabic";
+        text-align: center;
+
+        h2 {
+            font-weight: bold;
+
+
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+    
+    .target-blace{
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        .target-teaching , .target-teaching-tow {
+            span{
+                border-radius: 10px;
+                background-color: #E6F3F4;
+                padding: 10px;
+                color: #42A8B6;
+                font-weight: bold;
+            }
+            h2{
+                margin-top: 1.6rem;
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .GoolsSpace{
+        margin-block: 3rem;
+        .titleGools{
+            span{
+                font-size: 3rem;
+                font-weight: bold;
+                margin-block: 1rem;
+            }
+        }
+        .contentGools{
+            .items{
+                display: flex;
+                align-items: center;
+                padding: 0;
+                .imageGools{
+                    img{
+                        width: 4rem;
+                    }
+                }
+                .content-items{
+                    margin-right: 6px;
+                    h3{
+                        font-size: 1.1rem;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+.ArtWlaaGirl {
+    font-family: "Noto Kufi Arabic";
+    padding: 4rem;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../../public/images/girlArt.webp");
+    background-size: cover;
+    background-position: center;
+  
+    /* إضافة طبقة خلفية مظللة */
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* طبقة شفافة داكنة */
+      z-index: 1;
+    }
+  
+    .content {
+      position: absolute; /* يجب أن تكون فوق الخلفية */
+      z-index: 2; /* النص يظهر فوق طبقة الخلفية */
+      color: white;
+      padding: 1rem;
+      border-radius: 10px; /* زوايا مستديرة للنص */
+     span{
+        background-color: white;
+        padding-inline: 18px;
+        padding-block: 5px;
+        border-radius: 19px;
+        color:#42A8B6;
+        font-weight: bold;
+     }
+     h2{
+        margin-block: 1rem;
+        font-size:3rem ;
+        font-weight: bold;
+     }
+     p{
+        line-height: 2;
+     }
+
+    }
+}
+
+   .container{
+    font-family: "Noto Kufi Arabic";
+    
+   
+    .program{
+        margin: 0 auto;
+        width: fit-content;
+        position: relative;
+        margin-block: 2rem;
+        text-align: center;
+        span{
+            padding-inline: 3rem;
+            border-radius:50px;
+            color: #42A8B6;
+            background-color: #EAF6F7;
+            text-align: center;
+            font-weight: bold;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-top: 10px;
+        }
+        img{
+            position: absolute;
+            width: 5rem;
+            right: 0rem;
+            top: -1.6rem;
+    
+        }
+    }
+   } 
+  
+  
+
+@keyframes moveCloud {
+    0% {
+        transform: translateX(-50px);
+    }
+
+    50% {
+        transform: translateX(50px);
+    }
+
+    100% {
+        transform: translateX(-50px);
+    }
+}
+
+@keyframes moveCap {
+    0% {
+        transform: translatey(-10px);
+    }
+
+    50% {
+        transform: translatey(10px);
+    }
+
+    100% {
+        transform: translatey(-10px);
+    }
+}

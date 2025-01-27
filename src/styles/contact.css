@@ -1,0 +1,19 @@
+.contact{
+    padding-top: 5rem;
+    .row{
+        img{
+            width: 100%;
+        }
+        form{
+            margin: 1rem;
+            label{
+                margin-block: 1rem;
+            }
+            button{
+                margin-block: 1rem;
+                width: 100%;
+            }
+        }
+    }
+
+}

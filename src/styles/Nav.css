@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #79CAC6;;
+}
+.navbar{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    .container-fluid{
+        .navbar-brand , .nav-item{
+            font-family:"Noto Kufi Arabic";
+            font-weight:"bold";
+            color: black;
+            font-size: 1rem;
+        }
+    }
+    .container-fluid{
+           ul{
+            
+            .link-underline{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+            li{
+                transition: 1.5s all ease;
+                &:hover{
+                    background-color: rgba(211, 211, 211, 0.651);
+                    border-radius: 5px;
+                    a{
+                        color: var(--primary-color);
+                    }
+                   }
+            }
+          
+           }
+           
+          
+    }
+
+}

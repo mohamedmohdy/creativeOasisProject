@@ -1,0 +1,25 @@
+.slider-Activity{
+    padding-top: 6rem;
+    .carousel{
+        .carousel-item{
+            img{
+                height: 30em;
+            }
+        }
+    }
+   
+}
+.marqee{
+    font-family: "Noto Kufi Arabic";
+    h2{
+        text-align: center;
+        font-weight: bold;
+        color: red;
+        margin-block: 1rem;
+    }
+    img{
+        width: 200px;
+        height: 10;
+        margin-right: 100px;
+    }
+}
