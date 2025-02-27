@@ -26,7 +26,7 @@ const Contact = () => {
       else if (typeof value !== "string" || !isNaN(value)) {
         error = "اكتب الاسم بتكتب هنا رقم لي هزعل منك😅";
       }
-      else if (value.length > 11) {
+      else if (value.length > 17) {
         error = "اي يا باشا انتا كاتب اسم العيلة كلها ولا اي 😅";
       }
       else if (!/^[a-zA-Z\u0600-\u06FF\s]+$/.test(value.trim())) {
@@ -188,7 +188,7 @@ const Contact = () => {
       <section className="container contact-container contact">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 img-fluid">
-            <img src={oasisZone} alt="Oasis Zone" />
+            <img src={oasisZone} alt="Oasis Zone"  />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
             <form onSubmit={handleSubmit} method="POST">

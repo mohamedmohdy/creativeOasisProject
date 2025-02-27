@@ -23,3 +23,17 @@
         margin-right: 100px;
     }
 }
+.swiperDate{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+.map{
+    .map-container{
+        display: flex;
+        justify-content: center;
+        iframe{
+           width: 100%;
+        }
+    }
+}

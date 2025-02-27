@@ -28,17 +28,17 @@ const Home = () => {
             </div>
           </div>
           <div className="imgKids col-lg-7 col-sm-12 col-md-12" >
-            <img src={Kids} alt="kids" className='img-fluid' />
-            <img src={cap} className='img-fluid cap' alt="" />
-            <img src={cloud} className='img-fluid cloud' alt="" />
-            <img src={cloudlg} className='img-fluid cloud-lg' alt="" />
+            <img src={Kids} alt="kids" loading='lazy' className='img-fluid' />
+            <img src={cap} className='img-fluid cap'  loading='lazy' alt="cap" />
+            <img src={cloud} className='img-fluid cloud' alt="cloud"  />
+            <img src={cloudlg} className='img-fluid cloud-lg' alt="cloudlg"  />
 
           </div>
         </section>
         <section className='Feature row ' data-aos="fade-left">
           <div className="futherinfo-one col-lg-4 col-sm-12">
             <div className="imag ">
-              <img src={pencil} className='img-fluid' alt="" />
+              <img src={pencil} className='img-fluid' alt="pencil" loading='lazy' />
             </div>
             <div className="info">
               <h3>تحسين نمو وتطور الأطفال وصقل مواهبهم استناداً إلى أفضل المناهج التعليمية.</h3>
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <div className="futherinfo-two col-lg-4 col-sm-12">
             <div className="imag ">
-              <img src={hand} className='img-fluid' alt="" />
+              <img src={hand} className='img-fluid' alt="hand" loading='lazy' />
             </div>
             <div className="info">
               <h3>تعزيز سلوكيات الأطفال وتنمية مواهبهم، ضمن بيئة ملهمة تقدّم فرصاً تعليمية متكافئة.</h3>
@@ -56,7 +56,7 @@ const Home = () => {
           </div>
           <div className="futherinfo-three col-lg-4 col-sm-12">
             <div className="imag ">
-              <img src={bag} className='img-fluid' alt="" />
+              <img src={bag} className='img-fluid' alt="bag" loading='lazy' />
             </div>
             <div className="info">
               <h3>تقديم خدمات متميّزة للأطفال وأولياء أمورهم، وفقاً لأعلى معايير الجودة والشفافية.</h3>
@@ -66,8 +66,8 @@ const Home = () => {
         </section>
         <section className='moreInfoForBlace row' data-aos="fade-left">
           <div className="moreInfoForBlace-img col-lg-6 col-sm-12 col-md-12">
-            <img src={kids_save} alt="" className='img-fluid kids' />
-            <img src={books} className='img-fluid book' alt="" />
+            <img src={kids_save} alt="kids_save" className='img-fluid kids' loading='lazy' />
+            <img src={books} className='img-fluid book' alt="books" loading='lazy' />
           </div>
           <div className="moreInfoForBlace-content col-lg-6 col-sm-12 col-md-12">
             <h2>حول حضانة واحة الابداع</h2>
@@ -139,7 +139,7 @@ const Home = () => {
       </section>
       <div className="container "> 
         <div className="program">
-          <img src={fire} alt="" />
+          <img src={fire} alt="fire" loading='lazy' />
           <span>برامجنــــــا</span>
           <h2>برامج تعليمية متخصصة</h2>
           <p>صممت برامجنا خصيصاً لتلبية الاحتياجات المحددة لكل فئة عمرية، بدءاً من الرُضّع وحتى رياض الأطفال.<br/> وتعمل على تشجيع الفضول والتفكير النقدي والإبداع، لإعداد الأطفال للانتقال الناجح إلى المدرسة الابتدائية وما بعدها.</p>

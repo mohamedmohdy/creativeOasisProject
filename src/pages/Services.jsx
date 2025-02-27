@@ -7,10 +7,10 @@ const Services = () => {
         <div className="container service-contan">
           <div className="row">
             <div className="col-12">
-              <img src={funnySpace} alt="" />
+              <img src={funnySpace} alt="funnySpace"  />
             </div>
           </div>
-          <div class="row courses">
+          <div className="row courses">
               <div className='shape'> الحضانه   </div>
               <div className='shape'> الاسلاميات  </div>
               <div className='shape'> القران الكريم مجود ومفسر </div>

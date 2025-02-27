@@ -18,7 +18,8 @@
                 text-decoration: none;
                 color: black;
                 font-weight: bold;
-                font-size: 1.2rem;
+                font-size: 1rem;
+
             }
             li{
                 transition: 1.5s all ease;
